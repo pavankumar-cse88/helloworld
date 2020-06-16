@@ -14,7 +14,7 @@ pipeline{
 
             steps{
 
-                    sh 'gradle clean test'
+                    sh './gradlew runTests -Dtags=SMOKE'
 
             }
         }
